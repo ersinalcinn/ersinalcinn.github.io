@@ -12,18 +12,18 @@ sass:
 # When modifying this file, take care to preserve the indentation. This is YAML ...
 
 # Main Headline, name required, subtitle optional
-name: Muhammed Oguz
+name: Ersin Alçin
 #subtitle:
 subtitle: Bachelor Student in Computer Science at Gebze Technical University
 
 # Title attribute of HTML Page, uses 'name' from above if empty
-title: Muhammed Oguz | Portfolio
+title: Ersin Alçin | Portfolio
 
 # Information for web crawlers / Google, all of them optional
 # 'description' and 'keywords' simply set the corresponding meta tags,
 # 'crawl' is the 'Robots' tag http://www.robotstxt.org/meta.html
 robots:
-    description: Portfolio of Muhammed Oguz
+    description: Portfolio of Ersin Alçin
     keywords: foo, bar, baz
     crawl: index,follow
 
@@ -61,52 +61,38 @@ links:
   - linkedin:
       name: LinkedIn
       show: true
-      href: https://linkedin.com/in/muhammedogz/
+      href: https://linkedin.com/in/ersinalcin/
       icon: fab fa-linkedin
   - twitter:
       name: Twitter
       show: true
-      href: https://twitter.com/ogzmuhammed
+      href: https://twitter.com/ersinalcinn
       icon: fab fa-twitter
   - instagram:
       name: Instagram
       show: false
-      href: https://instagram.com/muhammedogz
+      href: https://instagram.com/ersinalcin
       icon: fab fa-instagram
   - github:
       name: GitHub
       show: true
-      href: https://github.com/muhammedogz
+      href: https://github.com/ersinalcinn
       icon: fab fa-github
   - codepen:
       name: CodePen
       show: false
       href: https://codepen.io/YOUR_CODEPEN_USERNAME
       icon: fab fa-codepen
-  - blog:
-      name: Hashnode
-      show: true
-      href: https://muhammedogz.hashnode.dev/
-      icon: fas fa-book-open
   - telegram:
       name: Telegram
       show: true
-      href: https://t.me/muhammedogz
+      href: https://t.me/ersinalcin
       icon: fab fa-telegram
-  - stackoverflow:
-      name: Stack Overflow
-      show: false
-      href: https://stackoverflow.com/users/YOUR_SO_USERNAME/
-      icon: fab fa-stack-overflow
-  - medium:
-      name: Medium
-      show: false
-      href: https://medium.com/@YOUR_MEDIUM_USERNAME
-      icon: fab fa-medium
+
   - email:
       name: Email
       show: true
-      href: m.oguz2018@gtu.edu.tr
+      href: ersinalcinn@gmail.com
       icon: fas fa-envelope
 
 
