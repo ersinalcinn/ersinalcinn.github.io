@@ -1,0 +1,120 @@
+# Fuse Core Theme for Jekyll - Settings
+# https://github.com/tsjensen/fuse-core
+
+markdown: kramdown
+permalink: pretty
+exclude: ['README.*', 'LICENSE.txt']
+sass:
+    style: expanded
+
+
+# CAUTION
+# When modifying this file, take care to preserve the indentation. This is YAML ...
+
+# Main Headline, name required, subtitle optional
+name: Muhammed Oguz
+#subtitle:
+subtitle: Bachelor Student in Computer Science at Gebze Technical University
+
+# Title attribute of HTML Page, uses 'name' from above if empty
+title: Muhammed Oguz | Portfolio
+
+# Information for web crawlers / Google, all of them optional
+# 'description' and 'keywords' simply set the corresponding meta tags,
+# 'crawl' is the 'Robots' tag http://www.robotstxt.org/meta.html
+robots:
+    description: Portfolio of Muhammed Oguz
+    keywords: foo, bar, baz
+    crawl: index,follow
+
+# website address when deployed, also given as canonical link
+url: https://muhammedogz.github.io/
+
+# The 'baseurl' is prepended to all website-internal links.
+# 'baseurl' will often be '', but for a project page on gh-pages, it needs to be the project name.
+# If not empty, be careful to keep the leading slash, and don't add a slash at the end.
+#baseurl: ''
+baseurl: ''
+
+# Enable Google Analytics. Leave empty (just "ga:" with subitems commented out) to disable.
+# In order to comply with EU cookie law, enable 'cookieconsent' to show a little popup asking users to acknowledge the GA cookies.
+# Also, some places require you to anonymize the users' IPs, which can be enabled via 'anonymizeip' below. You normally want that.
+# https://support.google.com/analytics/answer/2763052
+#ga:
+ga:
+    account: 'UA-120960520-1'
+    cookieconsent: true
+    anonymizeip: true
+
+
+# A picture of you, square(!), at least 180x180 pixels, more is better. Recommended file size < 100 KB.
+# Leave empty for generic placeholder image.
+# You can use your GitHub image:
+avatar: "https://avatars0.githubusercontent.com/u/54470681?s=460&u=bacbd138e7d3fcf842af9ee9fdcb0063007069e6&v=4"
+#avatar: "images/jonathan_doe.jpg"
+#avatar:
+
+
+# All the social media and other sites that we want to link to. The 'show' flag determines if the link is shown.
+# The order of this list controls the order of the links on the page. Feel free to add.
+links:
+  - linkedin:
+      name: LinkedIn
+      show: true
+      href: https://linkedin.com/in/muhammedogz/
+      icon: fab fa-linkedin
+  - twitter:
+      name: Twitter
+      show: true
+      href: https://twitter.com/ogzmuhammed
+      icon: fab fa-twitter
+  - instagram:
+      name: Instagram
+      show: false
+      href: https://instagram.com/muhammedogz
+      icon: fab fa-instagram
+  - github:
+      name: GitHub
+      show: true
+      href: https://github.com/muhammedogz
+      icon: fab fa-github
+  - codepen:
+      name: CodePen
+      show: false
+      href: https://codepen.io/YOUR_CODEPEN_USERNAME
+      icon: fab fa-codepen
+  - blog:
+      name: Hashnode
+      show: true
+      href: https://muhammedogz.hashnode.dev/
+      icon: fas fa-book-open
+  - telegram:
+      name: Telegram
+      show: true
+      href: https://t.me/muhammedogz
+      icon: fab fa-telegram
+  - stackoverflow:
+      name: Stack Overflow
+      show: false
+      href: https://stackoverflow.com/users/YOUR_SO_USERNAME/
+      icon: fab fa-stack-overflow
+  - medium:
+      name: Medium
+      show: false
+      href: https://medium.com/@YOUR_MEDIUM_USERNAME
+      icon: fab fa-medium
+  - email:
+      name: Email
+      show: true
+      href: m.oguz2018@gtu.edu.tr
+      icon: fas fa-envelope
+
+
+
+# Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
+#extra_html:
+extra_html: > 
+    Feel free to contact me
+    
+
+#EOF
