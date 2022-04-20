@@ -91,7 +91,7 @@ links:
   - email:
       name: Email
       show: true
-      href: ersinalcinn@gmail.com
+      mailto: ersinalcinn@gmail.com
       icon: fas fa-envelope
 
 
