@@ -28,7 +28,7 @@ robots:
     crawl: index,follow
 
 # website address when deployed, also given as canonical link
-url: https://muhammedogz.github.io/
+url: https://ersinalcinn.github.io/
 
 # The 'baseurl' is prepended to all website-internal links.
 # 'baseurl' will often be '', but for a project page on gh-pages, it needs to be the project name.
@@ -50,7 +50,7 @@ ga:
 # A picture of you, square(!), at least 180x180 pixels, more is better. Recommended file size < 100 KB.
 # Leave empty for generic placeholder image.
 # You can use your GitHub image:
-avatar: "https://avatars0.githubusercontent.com/u/54470681?s=460&u=bacbd138e7d3fcf842af9ee9fdcb0063007069e6&v=4"
+avatar: "https://avatars.githubusercontent.com/u/93488071?s=400&u=e0f63c342d5e59afcfba26076f306f92b80cf023&v=4"
 #avatar: "images/jonathan_doe.jpg"
 #avatar:
 
@@ -100,7 +100,7 @@ links:
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
 #extra_html:
 extra_html: > 
-    Feel free to contact me
+    Contact me..
     
 
 #EOF
