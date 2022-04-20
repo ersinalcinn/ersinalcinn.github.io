@@ -86,7 +86,7 @@ links:
   - email:
       name: Email
       show: true
-      mailto: ersin.alcin2018@gtu.edu.tr
+      href: mailto:ersin.alcin2018@gtu.edu.tr
       icon: fas fa-envelope
 
 
